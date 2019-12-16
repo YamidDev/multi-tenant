@@ -17,5 +17,10 @@ public class ClimDataRest {
         return repo.getByYear(year);
     }
 
+    @PostMapping
+    public void save(@RequestBody ClimData entity, @RequestHeader String tenantId) {
+        repo.save(entity);
+    }
+
 
 }
