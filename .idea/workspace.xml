@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cabbae6d-837c-47b9-9fcb-e4a4176ac3a0" name="Default Changelist" comment="" />
+    <list default="true" id="cabbae6d-837c-47b9-9fcb-e4a4176ac3a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/config/SystemConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/config/SystemConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +21,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/server/system/domain/ClimData.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/server/util/DataSourceUtil.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/static/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/server/system/persistence/ClimDataRepo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/server/config/SystemConfig.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1V4nj7neFR3728UBCcbfkTsIcfJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +47,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -43,6 +57,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -76,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576521366121</updated>
-      <workItem from="1576521369678" duration="4439000" />
+      <workItem from="1576521369678" duration="5834000" />
     </task>
     <servers />
   </component>
@@ -92,10 +107,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576525780071" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1576525510621">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1576527053512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576525510621" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576527053512" />
     <state width="1323" height="265" key="GridCell.Tab.0.bottom" timestamp="1576525834490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -128,5 +143,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="265" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576525834490" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1576526843550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576526843550" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1576526847770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576526847770" />
   </component>
 </project>

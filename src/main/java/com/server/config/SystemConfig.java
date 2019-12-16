@@ -68,7 +68,7 @@ public class SystemConfig {
                 tenantResolver);
         properties.put(org.hibernate.cfg.Environment.DIALECT,
                 "org.hibernate.dialect.PostgreSQL95Dialect");
-        properties.put(org.hibernate.cfg.Environment.SHOW_SQL, false);
+        properties.put(org.hibernate.cfg.Environment.SHOW_SQL, true);
         properties.put(org.hibernate.cfg.Environment.FORMAT_SQL, true);
         properties.put(org.hibernate.cfg.Environment.HBM2DDL_AUTO, "update");
         em.setJpaVendorAdapter(jpaVendorAdapter);
