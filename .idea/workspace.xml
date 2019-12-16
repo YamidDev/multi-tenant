@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cabbae6d-837c-47b9-9fcb-e4a4176ac3a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/system/service/ClimDataRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/system/service/ClimDataRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbactions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/config/SystemConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/config/SystemConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/server/ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
   <component name="RunManager">
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.ServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576521366121</updated>
-      <workItem from="1576521369678" duration="7098000" />
+      <workItem from="1576521369678" duration="7496000" />
     </task>
     <servers />
   </component>
@@ -98,10 +101,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" width="1100" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576524828326">
+    <state x="137" y="18" width="1100" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576529808058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" width="1100" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576524828326" />
+    <state x="137" y="18" width="1100" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576529808058" />
     <state x="410" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576525780071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,6 +113,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576527053512" />
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576529798378">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576529798378" />
     <state width="1323" height="265" key="GridCell.Tab.0.bottom" timestamp="1576525834490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -150,5 +157,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576526847770" />
+    <state x="275" y="22" key="scopes" timestamp="1576529852325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="scopes/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1576529852325" />
   </component>
 </project>

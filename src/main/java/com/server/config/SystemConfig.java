@@ -1,7 +1,5 @@
 package com.server.config;
 
-import com.server.util.DataSourceUtil;
-import com.server.util.TenantContextHolder;
 import java.util.HashMap;
 import java.util.Map;
 import javax.persistence.EntityManagerFactory;
@@ -18,8 +16,8 @@ import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-
-import javax.sql.DataSource;
+import com.server.util.DataSourceUtil;
+import com.server.util.TenantContextHolder;
 
 @Configuration
 @EnableTransactionManagement
@@ -33,8 +31,7 @@ public class SystemConfig {
     @Bean(destroyMethod = "close")
     public DataSource dataSource() {
         return DataSourceUtil.createAndConfigureDataSource(
-                TenantContextHolder.getTenant()
-        );
+                TenantContextHolder.getTenant());
     }
 
     @Bean
@@ -68,11 +65,12 @@ public class SystemConfig {
                 tenantResolver);
         properties.put(org.hibernate.cfg.Environment.DIALECT,
                 "org.hibernate.dialect.PostgreSQL95Dialect");
-        properties.put(org.hibernate.cfg.Environment.SHOW_SQL, true);
+        properties.put(org.hibernate.cfg.Environment.SHOW_SQL, false);
         properties.put(org.hibernate.cfg.Environment.FORMAT_SQL, true);
         properties.put(org.hibernate.cfg.Environment.HBM2DDL_AUTO, "update");
         em.setJpaVendorAdapter(jpaVendorAdapter);
         em.setJpaPropertyMap(properties);
         return em;
     }
+
 }
