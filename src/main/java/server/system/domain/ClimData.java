@@ -1,4 +1,4 @@
-package com.server.system.domain;
+package server.system.domain;
 
 
 import lombok.Data;

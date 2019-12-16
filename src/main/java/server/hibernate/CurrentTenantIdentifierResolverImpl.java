@@ -1,6 +1,6 @@
-package com.server.hibernate;
+package server.hibernate;
 
-import com.server.util.TenantContextHolder;
+import server.util.TenantContextHolder;
 import org.hibernate.context.spi.CurrentTenantIdentifierResolver;
 import org.springframework.stereotype.Component;
 

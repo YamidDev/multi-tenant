@@ -1,6 +1,6 @@
-package com.server.system.persistence;
+package server.system.persistence;
 
-import com.server.system.domain.ClimData;
+import server.system.domain.ClimData;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

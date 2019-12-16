@@ -1,7 +1,7 @@
-package com.server.system.service;
+package server.system.service;
 
-import com.server.system.domain.ClimData;
-import com.server.system.persistence.ClimDataRepo;
+import server.system.domain.ClimData;
+import server.system.persistence.ClimDataRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.server.util;
+package server.util;
 
 
 import org.aspectj.lang.ProceedingJoinPoint;

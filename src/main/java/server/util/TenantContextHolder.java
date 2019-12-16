@@ -1,4 +1,4 @@
-package com.server.util;
+package server.util;
 
 public class TenantContextHolder {
 

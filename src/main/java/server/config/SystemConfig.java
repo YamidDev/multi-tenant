@@ -1,4 +1,4 @@
-package com.server.config;
+package server.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,8 +16,8 @@ import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import com.server.util.DataSourceUtil;
-import com.server.util.TenantContextHolder;
+import server.util.DataSourceUtil;
+import server.util.TenantContextHolder;
 
 @Configuration
 @EnableTransactionManagement

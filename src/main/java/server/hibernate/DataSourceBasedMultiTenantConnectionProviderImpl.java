@@ -1,6 +1,6 @@
-package com.server.hibernate;
+package server.hibernate;
 
-import com.server.util.DataSourceUtil;
+import server.util.DataSourceUtil;
 import org.hibernate.engine.jdbc.connections.spi.AbstractDataSourceBasedMultiTenantConnectionProviderImpl;
 import org.hibernate.service.spi.Stoppable;
 import org.springframework.beans.factory.annotation.Autowired;
